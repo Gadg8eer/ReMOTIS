@@ -4486,7 +4486,7 @@ switch (FEAT_INDUSTRIES, SELF, Utility_Comp_cargo_subtype_display, 1) {
 // 	with this program; if not, write to the Free Software Foundation, Inc.,
 // 	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-spriteset(life_support_main_sprites, "../graphics/Buildings/Industry_LifeSupport_8bpp.png") {
+spriteset(life_support_main_sprites, "gfx/UtilityComp_LifeSupport/Industry_LifeSupport_8bpp.png") {
     [4, 268, 64, 128, -31, -97]
 	[4, 136, 64, 128, -31, -97]
 	[4,   4, 64, 128, -31, -97]
