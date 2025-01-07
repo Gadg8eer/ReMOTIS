@@ -2526,7 +2526,7 @@ switch (FEAT_INDUSTRIES, SELF, Shopping_Centres_cargo_subtype_display, 1) {
 			spritelayout Habs_Shopping_Centres_spritelayout {
 				ground {
 					sprite: GROUNDSPRITE_CONCRETE;
-			}
+				}
                 building {
                     sprite: Habs_Shopping_Centres_spriteset_2_0(0);
                     recolour_mode: RECOLOUR_REMAP;
@@ -2845,20 +2845,9 @@ switch (FEAT_INDUSTRIES, SELF, Manufacturing_Ind_cargo_subtype_display, 1) {
                             [0, 0, 64, 64, -31, -33, ANIM | NOCROP, "gfx/Manufacturing_Ind2_SNOW.png"]
             }
     spritelayout Habs_Manufacturing_Ind_spritelayout {
-                    childsprite {
-                        sprite: GROUNDSPRITE_CONCRETE;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
-                    childsprite {
-                        sprite: GROUNDSPRITE_SNOW;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (!LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
+                ground {
+					sprite: GROUNDSPRITE_CONCRETE;
+				}
                 building {
                     sprite: Habs_Manufacturing_Ind_spriteset_2_0(0);
                     recolour_mode: RECOLOUR_REMAP;
@@ -2960,10 +2949,6 @@ switch (FEAT_INDUSTRIES, SELF, Habs_Manufacturing_Ind_cargo_subtype_display, 1) 
     return 0x3800 + string(STR_EMPTY);
 }
 
-			spritelayout Habs_Shopping_Centres_spritelayout {
-				ground {
-					sprite: GROUNDSPRITE_CONCRETE;
-			}
 
             item(FEAT_INDUSTRIES, Habs_Manufacturing_Ind, 19) {
                 property {
@@ -3181,27 +3166,10 @@ switch (FEAT_INDUSTRIES, SELF, Heavy_Ind_cargo_subtype_display, 1) {
             spriteset(Habs_Heavy_Ind_spriteset_2_0_snow) {
                             [0, 0, 64, 64, -31, -33, ANIM | NOCROP, "gfx/Heavy_Ind2_SNOW.png"]
             }
-			
-			spritelayout Habs_Shopping_Centres_spritelayout {
-				ground {
-					sprite: GROUNDSPRITE_CONCRETE;
-			}
-			
     spritelayout Habs_Heavy_Ind_spritelayout {
-                    childsprite {
-                        sprite: GROUNDSPRITE_CONCRETE;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
-                    childsprite {
-                        sprite: GROUNDSPRITE_SNOW;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (!LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
+                ground {
+					sprite: GROUNDSPRITE_CONCRETE;
+				}
                 building {
                     sprite: Habs_Heavy_Ind_spriteset_2_0(0);
                     recolour_mode: RECOLOUR_REMAP;
@@ -3845,20 +3813,9 @@ switch (FEAT_INDUSTRIES, SELF, Mines_and_Quarries_cargo_subtype_display, 1) {
                             [0, 0, 64, 64, -31, -33, ANIM | NOCROP, "gfx/Mines_and_Quarries2_SNOW.png"]
             }
     spritelayout Habs_Mines_and_Quarries_spritelayout {
-                    childsprite {
-                        sprite: GROUNDSPRITE_CONCRETE;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
-                    childsprite {
-                        sprite: GROUNDSPRITE_SNOW;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (!LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
+                ground {
+					sprite: GROUNDSPRITE_CONCRETE;
+				}
                 building {
                     sprite: Habs_Mines_and_Quarries_spriteset_2_0(0);
                     recolour_mode: RECOLOUR_REMAP;
@@ -4175,20 +4132,9 @@ switch (FEAT_INDUSTRIES, SELF, Farms_cargo_subtype_display, 1) {
                             [0, 0, 64, 64, -31, -33, ANIM | NOCROP, "gfx/farms2_SNOW.png"]
             }
     spritelayout Habs_Farms_spritelayout {
-                    childsprite {
-                        sprite: GROUNDSPRITE_CONCRETE;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
-                    childsprite {
-                        sprite: GROUNDSPRITE_SNOW;
-                        recolour_mode: RECOLOUR_REMAP;
-                        palette: PALETTE_USE_DEFAULT;
-                        hide_sprite: (!LOAD_TEMP(13));
-                        always_draw: 1;
-                    }
+				ground {
+					sprite: GROUNDSPRITE_CONCRETE;
+				}
                 building {
                     sprite: Habs_Farms_spriteset_2_0(0);
                     recolour_mode: RECOLOUR_REMAP;
